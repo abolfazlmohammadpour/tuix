@@ -1,2 +1,62 @@
-# T-Rex
-T-Rex🦖 (inspired by Terminal + Rex) is a Python library designed to simplify terminal UI/UX development using ANSI escape codes. Whether you're building CLI apps, interactive shells, or just want colorful and dynamic terminal output, T-Rex🦖 makes it easy and fun!
+# 🦖 T-Rex: Rule Your Terminal Like a Dinosaur!
+
+## 🚀 The Vision
+T-Rex is a terminal UX toolkit designed for developers who want to:
+✔ Build beautiful, interactive CLI apps without headaches  
+✔ Use ANSI magic (colors, cursor control, animations) effortlessly  
+✔ Escape boring terminal interfaces - because UX isn't just for GUIs!  
+
+## 🎯 Who's It For?
+- CLI tool developers tired of ugly printf output  
+- Pythonistas who want terminal flair without low-level hacks  
+- Open-source maintainers craving a fun, memorable way to enhance their tools  
+- Terminal geeks who believe a T-Rex should control their shell 🦖💻  
+
+## ✨ Why "T-Rex"?
+- **T-Rex** = Terminal + Rex (Latin for "King")  
+- Like a dinosaur, it's powerful, unstoppable, and a little bit wild  
+- Because typing `import trex` should make you smile  
+
+## 📜 License
+T-Rex is released under the **[MIT License](LICENSE)** - one of the most permissive open-source licenses that allows:
+- ✅ Free use in both personal and commercial projects  
+- ✅ Modification and distribution  
+- ✅ Private use  
+- ✅ No liability or warranty  
+
+The only requirement is to include the original copyright notice.  
+
+```text
+MIT License
+
+Copyright (c) 2025 ABOLFAZL MOHAMMADPOUR
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+## 🦕 Coming Soon
+- Colors, animations, progress bars, and more prehistoric power  
+- A minimalist API that doesn't sacrifice flexibility  
+- 100% open-source - hackable, extendable, and community-driven  
+
+🦖 **Rawr!** The future of terminal UX is T-Rex-shaped.  
+
+---
+
+"Because every terminal needs a little dinosaur magic!"
