@@ -1,7 +1,3 @@
-Here's your requested version with the MIT License only in the English section:
-
----
-
 # 🖥️ Tuix: Revolutionize Terminal Interfaces  
 
 **Terminal UI/UX Toolkit for Python Developers**  
