@@ -5,9 +5,13 @@
 
 from setuptools import setup, find_packages
 
+
+with open("./../README.md", "r", encoding="utf-8") as the_long_description_file:
+    the_long_description = the_long_description_file.read()
+
 setup(
     name="tuix",
-    version="0.0.0",
+    version="0.0.1",
     author="ABOLFAZL MOHAMMADPOUR",
     author_email="ABOLFAZLMOHAMMADPOURQAEMSHAHR@GMAIL.COM",
     url="https://github.com/abolfazlmohammadpour/tuix.git",
@@ -19,7 +23,7 @@ setup(
                     applications, interactive shells, and visually dynamic
                     terminal outputs with unprecedented ease.
                 """,
-    long_description="""""",
+    long_description=the_long_description,
     long_description_content_type="text/markdown",
     packages=find_packages(),
     python_requires=">=3.13.2",
