@@ -1,4 +1,4 @@
-__version__ = "0.0.0"
+__version__ = "0.0.2"
 __author__ = "ABOLFAZL MOHAMMADPOUR"
 
 from .appearance import ESCAPE

@@ -11,18 +11,11 @@ with open("./../README.md", "r", encoding="utf-8") as the_long_description_file:
 
 setup(
     name="tuix",
-    version="0.0.1",
+    version="0.0.2",
     author="ABOLFAZL MOHAMMADPOUR",
     author_email="ABOLFAZLMOHAMMADPOURQAEMSHAHR@GMAIL.COM",
     url="https://github.com/abolfazlmohammadpour/tuix.git",
-    description="""
-                    Tuix is a powerful Python library designed to
-                    revolutionize terminal interface development through
-                    advanced ANSI escape code implementation. This toolkit
-                    empowers developers to create sophisticated CLI
-                    applications, interactive shells, and visually dynamic
-                    terminal outputs with unprecedented ease.
-                """,
+    description="A Revolution In UI/UX Of Terminal: tuix",
     long_description=the_long_description,
     long_description_content_type="text/markdown",
     packages=find_packages(),
