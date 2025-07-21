@@ -43,3 +43,6 @@ from tuix.appearance import set_blink_format, reset_blink_format
 from tuix.appearance import set_reverse_format, reset_reverse_format
 from tuix.appearance import set_hide_format, reset_hide_format
 from tuix.appearance import set_strike_line_format, reset_strike_line_format
+
+
+from tuix.appearance import write_colored_text, writeln_colored_text

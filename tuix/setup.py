@@ -11,7 +11,7 @@ with open("./../README.md", "r", encoding="utf-8") as the_long_description_file:
 
 setup(
     name="tuix",
-    version="0.0.2",
+    version="0.0.3",
     author="ABOLFAZL MOHAMMADPOUR",
     author_email="ABOLFAZLMOHAMMADPOURQAEMSHAHR@GMAIL.COM",
     url="https://github.com/abolfazlmohammadpour/tuix.git",
@@ -19,7 +19,7 @@ setup(
     long_description=the_long_description,
     long_description_content_type="text/markdown",
     packages=find_packages(),
-    python_requires=">=3.13.2",
+    python_requires=">=3.10",
     install_requires=[
     ],
     extras_require={

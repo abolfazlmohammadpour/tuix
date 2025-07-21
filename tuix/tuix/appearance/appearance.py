@@ -256,3 +256,57 @@ def reset_strike_line_format() -> None:
         Terminal.
     """
     print(f"{ESCAPE}{RESET_STRIKE_LINE}", end="")
+
+
+def write_colored_text(context: str, foreground_color: str, background_color: str) -> None:
+    """
+        This Dunction Will Set The Foreground And Background Color Of
+        The Terminal Accorded To The Entered Arguments Of This Function
+        And Then Write The Context That Entered As First Argument Of
+        This Function To The Terminal And Finally Reset All Of The Applied
+        Appearance To The Terminal.
+    """
+    try:
+        change_foreground_color(foreground_color)
+    except ValueError:
+        raise ValueError(
+            f"This <{foreground_color}> Doesn't Support By This Function"
+        )
+
+    try:
+        change_background_color(background_color)
+    except ValueError:
+        raise ValueError(
+            f"This <{background_color}> Doesn't Support By This Function"
+        )
+
+    print(context, end="")
+    reset_format()
+
+
+def writeln_colored_text(context: str, foreground_color: str, background_color: str) -> None:
+    """
+        This Dunction Will Set The Foreground And Background Color Of
+        The Terminal Accorded To The Entered Arguments Of This Function
+        And Then Write The Context That Entered As First Argument Of
+        This Function To The Terminal  And Then Reset All Of The Applied
+        Appearance To The Terminal And Finally Move The Cursor To The New Line
+        Of The Terminal.
+    """
+    try:
+        change_foreground_color(foreground_color)
+    except ValueError:
+        raise ValueError(
+            f"This <{foreground_color}> Doesn't Support By This Function"
+        )
+
+    try:
+        change_background_color(background_color)
+    except ValueError:
+        raise ValueError(
+            f"This <{background_color}> Doesn't Support By This Function"
+        )
+
+    print(context, end="")
+    reset_format()
+    print()

@@ -1,4 +1,4 @@
-__version__ = "0.0.2"
+__version__ = "0.0.3"
 __author__ = "ABOLFAZL MOHAMMADPOUR"
 
 from .appearance import ESCAPE
@@ -47,6 +47,8 @@ from .appearance import set_reverse_format, reset_reverse_format
 from .appearance import set_hide_format, reset_hide_format
 from .appearance import set_strike_line_format, reset_strike_line_format
 
+
+from .appearance import write_colored_text, writeln_colored_text
 
 __all__ = [
     "ESCAPE",
@@ -100,4 +102,8 @@ __all__ += [
     "set_reverse_format", "reset_reverse_format",
     "set_hide_format", "reset_hide_format",
     "set_strike_line_format", "reset_strike_line_format"
+]
+
+__all__ += [
+    "write_colored_text", "writeln_colored_text"
 ]

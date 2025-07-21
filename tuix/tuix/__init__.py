@@ -1,4 +1,4 @@
-__version__ = "0.0.2"
+__version__ = "0.0.3"
 __author__ = "ABOLFAZL MOHAMMADPOUR"
 
 from tuix.tuix import ESCAPE
@@ -46,6 +46,9 @@ from tuix.tuix import set_blink_format, reset_blink_format
 from tuix.tuix import set_reverse_format, reset_reverse_format
 from tuix.tuix import set_hide_format, reset_hide_format
 from tuix.tuix import set_strike_line_format, reset_strike_line_format
+
+
+from tuix.tuix import write_colored_text, writeln_colored_text
 
 
 __all__ = [
@@ -100,4 +103,8 @@ __all__ += [
     "set_reverse_format", "reset_reverse_format",
     "set_hide_format", "reset_hide_format",
     "set_strike_line_format", "reset_strike_line_format"
+]
+
+__all__ += [
+    "write_colored_text", "writeln_colored_text"
 ]

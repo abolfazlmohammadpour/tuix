@@ -1,5 +1,6 @@
 from tuix import tuix
 
+
 def main() -> None:
     print("This Is Default Background Color Of Your Terminal")
 
@@ -114,6 +115,7 @@ def main() -> None:
     # Reset All Of The Applied Appearance Actions To The Default
     tuix.reset_format()
     print()
+
 
 if __name__ == "__main__":
     main()
