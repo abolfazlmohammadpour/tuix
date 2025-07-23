@@ -34,7 +34,7 @@ from tuix.appearance import SET_STRIKE_LINE, RESET_STRIKE_LINE
 from tuix.appearance import change_background_color, change_foreground_color
 
 
-from tuix.appearance import reset_format
+from tuix.appearance import reset_all_format
 from tuix.appearance import set_bold_format, reset_bold_format
 from tuix.appearance import set_dim_format, reset_dim_format
 from tuix.appearance import set_italic_format, reset_italic_format

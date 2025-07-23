@@ -3,7 +3,7 @@ from tuix import tuix
 
 def main() -> None:
     # Resets All Applied Style From Your Terminal
-    tuix.reset_format()
+    tuix.reset_all_format()
     print("This Is Default Style Of Your Terminal")
 
     # Will Set Style Of Terminal To Bold

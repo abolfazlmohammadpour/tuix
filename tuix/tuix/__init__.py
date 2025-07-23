@@ -1,4 +1,4 @@
-__version__ = "0.0.3"
+__version__ = "0.0.4"
 __author__ = "ABOLFAZL MOHAMMADPOUR"
 
 from tuix.tuix import ESCAPE
@@ -37,7 +37,7 @@ from tuix.tuix import SET_STRIKE_LINE, RESET_STRIKE_LINE
 from tuix.tuix import change_background_color, change_foreground_color
 
 
-from tuix.tuix import reset_format
+from tuix.tuix import reset_all_format
 from tuix.tuix import set_bold_format, reset_bold_format
 from tuix.tuix import set_dim_format, reset_dim_format
 from tuix.tuix import set_italic_format, reset_italic_format
@@ -94,7 +94,7 @@ __all__ += [
 ]
 
 __all__ += [
-    "reset_format",
+    "reset_all_format",
     "set_bold_format", "reset_bold_format",
     "set_dim_format", "reset_dim_format",
     "set_italic_format", "reset_italic_format",

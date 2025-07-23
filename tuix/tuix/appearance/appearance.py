@@ -125,7 +125,7 @@ def change_background_color(color_code: str) -> None:
         )
 
 
-def reset_format() -> None:
+def reset_all_format() -> None:
     """
         This Function Will Reset All Formats Of The Terminal
     """

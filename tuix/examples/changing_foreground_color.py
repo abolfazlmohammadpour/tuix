@@ -69,7 +69,7 @@ def main() -> None:
     print("This Is Bright White Foreground Color")
 
     # Reset All Of The Appearance Themes
-    tuix.reset_format()
+    tuix.reset_all_format()
 
 
 if __name__ == "__main__":
