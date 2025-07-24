@@ -281,7 +281,7 @@ def write_colored_text(context: str, foreground_color: str, background_color: st
         )
 
     print(context, end="")
-    reset_format()
+    reset_all_format()
 
 
 def writeln_colored_text(context: str, foreground_color: str, background_color: str) -> None:
@@ -308,5 +308,5 @@ def writeln_colored_text(context: str, foreground_color: str, background_color: 
         )
 
     print(context, end="")
-    reset_format()
+    reset_all_format()
     print()
