@@ -132,6 +132,128 @@ def reset_all_format() -> None:
     print(f"{ESCAPE}{RESET}", end="")
 
 
+def set_format(format_code: str) -> None:
+    """
+        This Funcrion Will Set Format Of Available Text In Terminal
+        Which Just Supported The Conventional Formats That Are Supported By This Module
+        The Supported Formats Are 
+        {Bold, Dim, Italic, Under Line, Blink, Reverse, Hide, Strike Line}
+    """
+    if format_code == SET_BOLD:
+        print(f"{ESCAPE}{SET_BOLD}", end="")
+    elif format_code == SET_DIM:
+        print(f"{ESCAPE}{SET_DIM}", end="")
+    elif format_code == SET_ITALIC:
+        print(f"{ESCAPE}{SET_ITALIC}", end="")
+    elif format_code == SET_UNDER_LINE:
+        print(f"{ESCAPE}{SET_UNDER_LINE}", end="")
+    elif format_code == SET_BLINK:
+        print(f"{ESCAPE}{SET_BLINK}", end="")
+    elif format_code == SET_REVERSE:
+        print(f"{ESCAPE}{SET_REVERSE}", end="")
+    elif format_code == SET_HIDE:
+        print(f"{ESCAPE}{SET_HIDE}", end="")
+    elif format_code == SET_STRIKE_LINE:
+        print(f"{ESCAPE}{SET_STRIKE_LINE}", end="")
+    else:
+        raise ValueError(
+            f"This <{format_code}> Value Doesn't Support By This Function"
+        )
+
+
+def reset_format(format_code: str) -> None:
+    """
+        This Funcrion Will Reset Format Of Available Text In Terminal
+        Which Just Supported The Conventional Formats That Are Supported By This Module
+        The Supported Formats Are 
+        {Bold, Dim, Italic, Under Line, Blink, Reverse, Hide, Strike Line}
+    """
+    if format_code == RESET:
+        print(f"{ESCAPE}{RESET}", end="")
+    elif format_code == RESET_BOLD:
+        print(f"{ESCAPE}{RESET_BOLD}", end="")
+    elif format_code == RESET_DIM:
+        print(f"{ESCAPE}{RESET_DIM}", end="")
+    elif format_code == RESET_ITALIC:
+        print(f"{ESCAPE}{RESET_ITALIC}", end="")
+    elif format_code == RESET_UNDER_LINE:
+        print(f"{ESCAPE}{RESET_UNDER_LINE}", end="")
+    elif format_code == RESET_BLINK:
+        print(f"{ESCAPE}{RESET_BLINK}", end="")
+    elif format_code == RESET_REVERSE:
+        print(f"{ESCAPE}{RESET_REVERSE}", end="")
+    elif format_code == RESET_HIDE:
+        print(f"{ESCAPE}{RESET_HIDE}", end="")
+    elif format_code == RESET_STRIKE_LINE:
+        print(f"{ESCAPE}{RESET_STRIKE_LINE}", end="")
+    else:
+        raise ValueError(
+            f"This <{format_code}> Value Doesn't Support By This Function"
+        )
+
+
+def set_formats(format_codes: list[str]) -> None:
+    """
+        This Funcrion Will Set Formats Of Available Text In Terminal
+        Which Just Supported The Conventional Formats That Are Supported By This Module
+        The Supported Formats Are
+        {Bold, Dim, Italic, Under Line, Blink, Reverse, Hide, Strike Line}
+    """
+    for format_code in format_codes:
+        if format_code == SET_BOLD:
+            print(f"{ESCAPE}{SET_BOLD}", end="")
+        elif format_code == SET_DIM:
+            print(f"{ESCAPE}{SET_DIM}", end="")
+        elif format_code == SET_ITALIC:
+            print(f"{ESCAPE}{SET_ITALIC}", end="")
+        elif format_code == SET_UNDER_LINE:
+            print(f"{ESCAPE}{SET_UNDER_LINE}", end="")
+        elif format_code == SET_BLINK:
+            print(f"{ESCAPE}{SET_BLINK}", end="")
+        elif format_code == SET_REVERSE:
+            print(f"{ESCAPE}{SET_REVERSE}", end="")
+        elif format_code == SET_HIDE:
+            print(f"{ESCAPE}{SET_HIDE}", end="")
+        elif format_code == SET_STRIKE_LINE:
+            print(f"{ESCAPE}{SET_STRIKE_LINE}", end="")
+        else:
+            raise ValueError(
+                f"This <{format_code}> Value Of {format_codes} Doesn't Support By This Function"
+            )
+
+
+def reset_formats(format_codes: list[str]) -> None:
+    """
+        This Funcrion Will Reset Formats Of Available Text In Terminal
+        Which Just Supported The Conventional Formats That Are Supported By This Module
+        The Supported Formats Are 
+        {Bold, Dim, Italic, Under Line, Blink, Reverse, Hide, Strike Line}
+    """
+    for format_code in format_codes:
+        if format_code == RESET:
+            print(f"{ESCAPE}{RESET}", end="")
+        elif format_code == RESET_BOLD:
+            print(f"{ESCAPE}{RESET_BOLD}", end="")
+        elif format_code == RESET_DIM:
+            print(f"{ESCAPE}{RESET_DIM}", end="")
+        elif format_code == RESET_ITALIC:
+            print(f"{ESCAPE}{RESET_ITALIC}", end="")
+        elif format_code == RESET_UNDER_LINE:
+            print(f"{ESCAPE}{RESET_UNDER_LINE}", end="")
+        elif format_code == RESET_BLINK:
+            print(f"{ESCAPE}{RESET_BLINK}", end="")
+        elif format_code == RESET_REVERSE:
+            print(f"{ESCAPE}{RESET_REVERSE}", end="")
+        elif format_code == RESET_HIDE:
+            print(f"{ESCAPE}{RESET_HIDE}", end="")
+        elif format_code == RESET_STRIKE_LINE:
+            print(f"{ESCAPE}{RESET_STRIKE_LINE}", end="")
+        else:
+            raise ValueError(
+                f"This <{format_code}> Value Of {format_codes} Doesn't Support By This Function"
+            )
+
+
 def set_bold_format() -> None:
     """
         This Function Will Bold The Format Of Available Texts In Terminal

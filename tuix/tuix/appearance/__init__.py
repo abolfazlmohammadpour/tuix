@@ -1,4 +1,4 @@
-__version__ = "0.0.5"
+__version__ = "0.0.6"
 __author__ = "ABOLFAZL MOHAMMADPOUR"
 
 from .appearance import ESCAPE
@@ -38,6 +38,8 @@ from .appearance import change_background_color, change_foreground_color
 
 
 from .appearance import reset_all_format
+from .appearance import set_format, reset_format
+from .appearance import set_formats, reset_formats
 from .appearance import set_bold_format, reset_bold_format
 from .appearance import set_dim_format, reset_dim_format
 from .appearance import set_italic_format, reset_italic_format
@@ -94,6 +96,8 @@ __all__ += [
 
 __all__ += [
     "reset_all_format",
+    "set_format", "reset_format",
+    "set_formats", "reset_formats",
     "set_bold_format", "reset_bold_format",
     "set_dim_format", "reset_dim_format",
     "set_italic_format", "reset_italic_format",
