@@ -358,8 +358,33 @@ def main() -> None:
     # Will Set Style Of Your Terminal To Strike Line
     tuix.set_strike_line_format()
     print("This Is Strike Line Style Of Your Terminal", end="")
-    # Will Rset Style Of Your Terminal From Strike Line To Default
+    # Will Reset Style Of Your Terminal From Strike Line To Default
     tuix.reset_strike_line_format()
+    print()
+
+    # Will Set Style Of Your Terminal To Bold
+    tuix.set_format(tuix.SET_BOLD)
+    # Will Set Style Of Your Terminal To Italic
+    tuix.set_format(tuix.SET_ITALIC)
+    print("These Are Bold And Italic Styles Of Your Terminal", end="")
+    # Will Reset Style Of Your Terminal From Italic
+    tuix.reset_format(tuix.RESET_ITALIC)
+    print()
+    print("This Is Bold Style Of Your Terminal", end="")
+    # Will Reset Style Of Your Terminal From Bold
+    tuix.reset_format(tuix.RESET_BOLD)
+    print()
+
+    # Will Set Style Of Your Terminal To Bold And Italic And Under Line
+    tuix.set_formats([tuix.SET_BOLD, tuix.SET_ITALIC, tuix.SET_UNDER_LINE])
+    print("These Are Bold And Italic And Under Line Styles Of Your Terminal", end="")
+    # Will Reset Style Of Your Terminal From Bold And Italic
+    tuix.reset_formats([tuix.RESET_BOLD, tuix.RESET_ITALIC])
+    print()
+    print("This Is Under Line Style Of Your Terminal", end="")
+    # Will Reset Style Of Your Terminal From Under Line
+    tuix.reset_format(tuix.RESET_UNDER_LINE)
+    print()
 
 
 if __name__ == "__main__":
